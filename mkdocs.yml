@@ -1,0 +1,32 @@
+site_name: Pydantic Startup Kit
+
+theme:
+  name: material
+  #  palette:
+  #    primary: blue
+  #    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Accueil: index.md
+  - Introduction: '01-intro.md'
+  - Classes traditionnelles: '02-traditional-classes.md'
+  - DataClasses: '03-dataclasses.md'
+  - Classes Pydantic: '04-pydantic-classes.md'
+  - Comparaison entre classes traditionnelles, DataClasses et Pydantic: '05-comparison.md'
+  - Validation cross-field avec Pydantic: '06-cross-field-validation.md'
+  - Lecture de fichiers JSON avec Pydantic: '07-json-reading.md'
+  - Cas d’utilisation: '08-use-cases.md'
+  - Conclusion: '09-conclusion.md'
+  - Ressources supplémentaires: '10-more-resources.md'
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
