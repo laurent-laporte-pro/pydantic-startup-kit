@@ -61,25 +61,25 @@ dependencies = [
 
 ## Avantages de Pydantic
 
-1. **Déclaration Clair et Concise :** La syntaxe déclarative rend la définition des modèles de données claire et concise, améliorant la lisibilité du code.
+1. **Déclaration claire et concise :** La syntaxe déclarative rend la définition des modèles de données claire et concise, améliorant la lisibilité du code.
 
-2. **Validation Puissante :** Pydantic offre une validation puissante avec des erreurs explicites, facilitant le traitement précoce des erreurs dans le flux de travail.
+2. **Validation puissante :** Pydantic offre une validation puissante avec des erreurs explicites, facilitant le traitement précoce des erreurs dans le flux de travail.
 
-3. **Conversion Automatique :** La conversion automatique des types simplifie la manipulation des données sans nécessiter une logique de conversion explicite.
+3. **Conversion automatique :** La conversion automatique des types simplifie la manipulation des données sans nécessiter une logique de conversion explicite.
 
-4. **Documentation Automatique :** Les modèles Pydantic génèrent automatiquement une documentation utile pour les API, ce qui facilite la communication entre les développeurs.
+4. **Documentation automatique :** Les modèles Pydantic génèrent automatiquement une documentation utile pour les API, ce qui facilite la communication entre les développeurs.
 
 ## Inconvénients de Pydantic
 
-1. **Complexité Additionnelle :** Pour des cas simples, l'utilisation de Pydantic peut sembler un peu trop lourde par rapport à des solutions plus simples comme les classes traditionnelles.
+1. **Complexité additionnelle :** Pour des cas simples, l'utilisation de Pydantic peut sembler un peu trop lourde par rapport à des solutions plus simples comme les classes traditionnelles.
 
-2. **Apprentissage Initial :** Les fonctionnalités avancées de Pydantic peuvent nécessiter une courbe d'apprentissage pour les nouveaux utilisateurs.
+2. **Apprentissage initial :** Les fonctionnalités avancées de Pydantic peuvent nécessiter une courbe d'apprentissage pour les nouveaux utilisateurs.
 
-3. **Surcharge Potentielle :** Dans certains cas, la surcharge due à la validation peut entraîner une légère diminution des performances par rapport à des solutions plus légères.
+3. **Surcharge potentielle :** Dans certains cas, la surcharge due à la validation peut entraîner une légère diminution des performances par rapport à des solutions plus légères.
 
-## Comparaison avec les Classes Traditionnelles et les DataClasses
+## Comparaison avec les classes traditionnelles et les DataClasses
 
-- **Avantages par rapport aux Classes Traditionnelles :**
+- **Avantages par rapport aux classes traditionnelles :**
   - Syntaxe plus concise pour la définition des modèles.
   - Validation intégrée, ce qui évite d'écrire une logique de validation manuelle.
 
